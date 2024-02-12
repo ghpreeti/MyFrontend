@@ -1,0 +1,49 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Add Two Numbers</title>
+</head>
+<body>
+    <h2>Add Two Numbers</h2>
+    <form>
+        <label for="numOne">Number 1:</label>
+        <input type="number" id="numOne" required>
+        <br>
+        <label for="numTwo">Number 2:</label>
+        <input type="number" id="numTwo" required>
+        <br>
+        <button type="button" onclick="add()">Add</button>
+        <br>
+        <label for="sum">Result:</label>
+        <input type="number" id="sum" readonly>
+    </form>
+    <script>
+        function add() {
+            var numOne = parseInt(document.getElementById("numOne").value);
+            var numTwo = parseInt(document.getElementById("numTwo").value);
+            var sum = numOne + numTwo;
+            document.getElementById("sum").value = sum;
+        }
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addition</title>
+</head>
+<body>
+    <script>
+        function add(a,b){
+            document.write("addition : " +a+b);
+        }
+        let a = Number(prompt("Enter the number "));
+        let b = parseInt(prompt("Enter another number"));
+        // alert(`The sum of ${a} and ${b} is ${a+b}`);
+        add(a,b);
+    </script>
+</body>
+</html>
