@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrowFunction</title>
+</head>
+<body>
+    <script>
+    //     const addNumbers = (...numbers) => numbers.reduce((sum, number) => sum + number, 0);
+
+    //    console.log(addNumbers(5, 6, 13)); // Output: 24
+    //    console.log(addNumbers(1, 2, 3, 4, 5)); // Output: 15
+
+    let a =10;
+    let b = 30;
+    let c = 20;
+    let z = (a,b,c)=>{
+        return a+b+c;
+    }
+
+    document.write("The value of a+b+c is " + z(a,b,c)+ "<br/>");
+    </script>
+</body>
+</html>

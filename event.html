@@ -1,0 +1,29 @@
+<!-- event : when some task happens for a certain time -->
+<!-- event handling: handles the event in a asynchronous way -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventHandling</title>
+    
+</head>
+<body>
+
+    <p>there's a button </p>
+    <input type ="text" onkeyup="fun3()">
+    <button id ="btn" onclick="fun1()" onmouseout="fun()">Click me to see magic happen!</button><br/>
+<script>
+    function fun1(){
+        document.getElementById("btn").style.color="Green";
+    }
+    function fun(){
+        document.getElementById("btn").style.background="yellow";
+    }
+    function fun3(){
+       alert("key is pressed");
+    }
+</script>
+</body>
+</html>
